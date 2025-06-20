@@ -1,0 +1,11 @@
+/* CSS Syntax for NavBar */
+.home-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 5px;
+    background: #74C69D;
+    color: white;
+    width: 100%;
+    position: relative;
+}

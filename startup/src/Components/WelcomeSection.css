@@ -1,0 +1,34 @@
+/* Welcome Section CSS Syntax */
+.intro-section {
+background-color: #74C69D;
+    width: 100%;
+    color: white;
+}  
+.welcome {
+    text-align: left;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 700;
+    margin-left: 9px;
+}
+.lorembold{
+    text-align: left;
+    font-family:serif;
+    font-size: 28px;
+    font-weight: 700;
+    color: #FFFFFF;
+    margin-left: 10px;
+}
+.loremlight{
+    text-align: left;
+    font-family: sans-serif;
+    font-style: normal;
+    font-size: 15px;
+    font-weight: 400;
+    color: #FFFFFF;
+    margin-left: 10px;
+}
+.explore-btn {
+    display: block;
+    margin-left: 0.5em;
+}

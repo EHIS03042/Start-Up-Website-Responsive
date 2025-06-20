@@ -1,15 +1,16 @@
 import React from "react";
 import './Home.css';
-
+import navlogo from '../images/navlogo.svg'
+import googlelogo from '../images/googlelogo.svg'
+import teamThreePeople from '../images/teamThreePeople.png'
 const Home = () => {
     return (
         <div className="home-container">
     <header className="home-header">
-        <img src="images/nav-logo.svg" className="logo" alt="Logo"/>
+        <img src={navlogo} className="logo" alt="Logo"/>
         <button className="menu-button">☰</button>
-        <img src="images/team-of-3-image.png" className="team3" alt="Team3"/>
+        <img src={teamThreePeople} className="team3" alt="Team3"/>
     </header>
-        <div/>
 
     <section className="intro-section">
         <h1>WELCOME</h1>
@@ -32,7 +33,7 @@ const Home = () => {
             <br/>consectetur
             <br/>adipisicing elit.
         </p>
-        <img src="images/google-logo.svg" className="google" alt="Google"/>
+        <img src={googlelogo} className="google" alt="Google"/>
         <img src="images/microsoft-logo.svg" className="microsoft" alt="Microsoft"/>
         <img src="images/airbnb-logo.svg" className="airbnb" alt="AirBnb"/>
         <img src="images/facebook-logo.svg" className="facebook" alt="Facebook"/>
@@ -106,7 +107,8 @@ const Home = () => {
             <img src="images/predesigned-footer.png" alt="Twitter" />
         </div>
     </footer>
-    
+</div>
+
     );
 };
 
