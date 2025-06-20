@@ -69,9 +69,9 @@ const Home = () => {
     </div>
 
     <section className="teams-section">
-        <h1>TEAM</h1>
-        <h2>Our Talents</h2>
-        <p>
+        <h2 className="team">TEAM</h2>
+        <h3 className="talent">Our Talents</h3>
+        <p className="ametnormal">
             Lorem ipsum, dolor sit amet
             <br/>consectetur
             <br/>adipisicing elit.

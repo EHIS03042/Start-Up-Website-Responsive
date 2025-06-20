@@ -1,1 +1,17 @@
 /* Connectivity CSS Syntax */
+.connect {
+    width: auto;
+    margin-top: 40px;
+}
+.sitbold {
+    text-align: left;
+    font-family: sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+}
+.sitlight {
+    text-align: left;
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+}

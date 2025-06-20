@@ -7,7 +7,7 @@ const NavBar = () => {
     return (  
         <header className="home-header">
                 <img src={navlogo} className="logo" alt="Logo"/>
-                <h2>Start</h2>
+                <h2 className='start'>Start</h2>
                 <img src={hamburgerMenu} className="menu-button"/>
         </header>
     );

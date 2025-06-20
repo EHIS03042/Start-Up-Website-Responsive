@@ -8,6 +8,7 @@ import learnmorebtndark from '../images/learnmorebtndark.png'
 
 const PartnersSection = () => {
     return ( 
+        <div className='stakeholders'>
         <section className="partners-section">
                 <h2 className='partners'>PARTNERS</h2>
                 <h3 className='ipsumbold'>Lorem Ipsum Dolor</h3>
@@ -35,6 +36,7 @@ const PartnersSection = () => {
                 </ul>
                     <img src={learnmorebtndark} className="learn-btn1" alt="Learn-Btn1"/>
             </section>
+            </div>
         
         );
     }

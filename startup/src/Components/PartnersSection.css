@@ -1,8 +1,13 @@
 /* PartnerSection CSS Syntax */
+.stakeholders {
+    margin-top: 30px;
+}
 .partners-section {
     align-items: center;
     background-color: #FFFFFF;
     width: 100%;
+    top: 664px;
+    margin-top: 30px;
 }
 
 .partners {
@@ -10,6 +15,7 @@
     font-size: 16px;
     font-weight: 700;
     color: #74C69D;
+    letter-spacing: 5px;
 }
 .ipsumbold {
     font-family: sans-serif;
@@ -20,7 +26,7 @@
     font-family: sans-serif;
     font-size: 20px;
     font-weight: 400;
-    letter-spacing: 5px;
+    letter-spacing: 0px;
 }
 .partnerlogo {
     list-style: none;
