@@ -9,9 +9,9 @@ import learnmorebtndark from '../images/learnmorebtndark.png'
 const PartnersSection = () => {
     return ( 
         <section className="partners-section">
-                <h1>PARTNERS</h1>
-                <p>Lorem Ipsum Dolor</p>
-                <p>
+                <h2 className='partners'>PARTNERS</h2>
+                <h3 className='ipsumbold'>Lorem Ipsum Dolor</h3>
+                <p className='ipsumlight'>
                     Lorem ipsum, dolor sit amet
                     <br/>consectetur
                     <br/>adipisicing elit.

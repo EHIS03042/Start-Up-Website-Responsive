@@ -42,7 +42,7 @@ const Home = () => {
         <button className="btn-2"></button>
     </section>
 
-    <div>
+    <div className="intercollaboration">
         <img src="images/inter-three.svg" className="inter3" alt="Inter3" />
         <h2>Lorem ipsum dolor sit amet consectetur </h2>
         <p>
