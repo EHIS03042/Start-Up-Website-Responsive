@@ -4,6 +4,8 @@ import Test from './Pages/Test';
 import NavBar from './Components/NavBar';
 import WelcomeSection from './Components/WelcomeSection';
 import PartnersSection from './Components/PartnersSection';
+import InterCollaboration from './Components/InterCollaboration';
+import Connectivity from './Components/Connectivity';
 
 function App() {
   return (
@@ -13,6 +15,8 @@ function App() {
       <NavBar/>
       <WelcomeSection/>
       <PartnersSection/>
+      <InterCollaboration/>
+      <Connectivity/>
     </div>
   );
 }
