@@ -7,21 +7,24 @@
     width: 100%;
     position: relative;
     margin-top: 40px;
-} ;
+    margin-left: 2em;
+} 
 .inter3 {
     width: auto;
 }
 .dolorbold {
     text-align: left;
-    font-family: sans-serif;
+    font-family: "Crimson Text", serif;
     font-size: 24px;
     font-weight: 700;
 }
 .dolorlight {
     text-align: left;
-    font-family: sans-serif;
+    font-family: "Work Sans", serif;
     font-size: 15px;
     font-weight: 400;
+    font-style: normal;
+    color: gray;
 }
 .learn-btn2 {
     display: flex;

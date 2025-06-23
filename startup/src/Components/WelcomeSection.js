@@ -13,7 +13,8 @@ const WelcomeSection = () => {
                 Lorem ipsum, dolor sit amet consectetur
                 <br/>adipisicing elit. Suscipit nemo hic quos, ab,
                 <br/> dolor aperiam nobis cum est eos error ipsum, 
-                <br/>voluptate culpa nesciunt delectus iste?
+                <br/>voluptate culpa nesciunt delectus
+                <br/>iste?
             </p>
             <img src={exploreBtnWhite} className="explore-btn" alt="Explore-Btn"/>
         </section>

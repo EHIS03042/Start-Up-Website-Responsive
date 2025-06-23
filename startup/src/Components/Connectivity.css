@@ -5,13 +5,16 @@
 }
 .sitbold {
     text-align: left;
-    font-family: sans-serif;
+    font-family: "Crimson Text", serif;
     font-size: 24px;
     font-weight: 700;
+    margin-left: 1.2em;
 }
 .sitlight {
     text-align: left;
-    font-family: sans-serif;
+    font-family: "Work Sans", serif;
     font-size: 15px;
     font-weight: 400;
+    color: gray;
+    margin-left: 2em;
 }

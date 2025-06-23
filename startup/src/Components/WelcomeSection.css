@@ -3,11 +3,11 @@
     background-color: #74C69D;
     width: 100%;
     color: white;
-    height: 622px;
+    height: 562px;
 }  
 .welcome {
     text-align: left;
-    font-family: Work Sans;
+    font-family: "Work Sans", sans-serif;
     font-size: 16px;
     font-weight: 700;
     margin-left: 5%;
@@ -15,7 +15,7 @@
 }
 .lorembold{
     text-align: left;
-    font-family:serif;
+    font-family: "Crimson Text", serif;
     font-size: 28px;
     font-weight: 700;
     color: #FFFFFF;
@@ -23,7 +23,7 @@
 }
 .loremlight{
     text-align: left;
-    font-family: sans-serif;
+    font-family: "Work Sans", sans-serif;
     font-style: normal;
     font-size: 15px;
     font-weight: 400;
@@ -33,5 +33,5 @@
 .explore-btn {
     display: block;
     margin-left: 5%;
-    margin-top: 25%;
+    margin-top: 8%;
 }
