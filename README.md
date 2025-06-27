@@ -4,7 +4,7 @@
 This project is a responsive, multi-section React landing page built with modular components, custom CSS, and images uplaoded from the provided Figma design. It is designed to highlight key offerings such as welcome messaging, collaboration benefits, team members, partners, and connectivity/interoperability with allied businesses and platforms.
 
 ## Live Demo
-- [[live_demo]( )]
+- [[live_demo]( https://start-up-website-responsive.onrender.com )]
 
 ## Project Outline
 
