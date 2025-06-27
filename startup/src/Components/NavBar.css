@@ -5,7 +5,6 @@ html, body {
     overflow-x: hidden;
 }
 /* CSS Syntax for NavBar */
-
 .home-header {
     display: flex;
     justify-content: space-between;
@@ -105,6 +104,13 @@ html, body {
 .show-menu {
     display: flex;
     }
+
+    .nav-links a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
     
     /* Mobile Screen (max-width: 768px) */
 /* @media (max-width: 768px) {
@@ -112,9 +118,9 @@ html, body {
         display: block;
     }
 
-    .nav-links {
+    /* .nav-links {
         display: none;
-    }
+    } */
 
     .nav-menu {
         display: none;
@@ -141,7 +147,6 @@ html, body {
         margin-left: 0.2em;
         margin-top: 1.2em;
     }
-} */
 
 @media (max-width: 375px) {
     .start {

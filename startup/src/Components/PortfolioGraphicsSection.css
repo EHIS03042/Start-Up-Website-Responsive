@@ -16,7 +16,7 @@
     align-items: center;
     width: 100%;
     max-width: 100%;
-    padding: 2em 1em;
+    padding: 1em 1em 2em 1em;
     gap: 2em;
     }
 
@@ -50,7 +50,7 @@
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
         gap: 2em;
-        padding: 4em 6em;
+        padding: 2em 6em 4em 6em;
         justify-content: center;
     }
 

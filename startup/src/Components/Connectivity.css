@@ -19,6 +19,7 @@ html, body {
     background: #FFFFFF;
     width: 100%;
     padding: 2em 1em;
+    margin-bottom: 0;
     gap: 1.5em;
     }
 
@@ -31,7 +32,6 @@ html, body {
     width: 100%;
     max-width: 400px;
     height: auto;
-    margin-top: -6em;
 }
 
 .sittext {
@@ -129,6 +129,21 @@ html, body {
     }
     } */
 
+    @media (max-width: 768px) {
+    .conbtn {
+        display: flex;
+        justify-content: center;
+        margin-top: 1.5em;
+        margin-left: 0; 
+    }
+
+    .learn-btn2a {
+        width: 140px;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+    }
+}
 
     @media (min-width: 1024px) {
     .connectivitysection {

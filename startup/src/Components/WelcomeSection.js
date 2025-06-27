@@ -6,9 +6,7 @@ const WelcomeSection = () => {
     return ( 
         <div>
         <section className="intro-section">
-            <div className='threeteam'>
                 <img src={teamThreePeople} className="team3" alt="Team3"/>  
-            </div>
             <div className='textintro'>
                 <h1 className='welcome'>WELCOME</h1>
                 <p className='lorembold'>Lorem ipsum dolor sit

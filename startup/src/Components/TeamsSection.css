@@ -2,15 +2,15 @@
 /* .teams-section {
     width: fixed;
     background-color: #FFFFFF;
-    margin-top: 22em;
+    margin-top: 4em;
     padding: 2rem,1rem;
 } */
 
 .teams-section {
     width: 100%;
     background-color: #FFFFFF;
-    margin-top: 4em; /* ✅ reduce from 22em */
-    padding: 2rem 1rem; /* ✅ fixed comma to space */
+    margin-top: 0.5em; 
+    padding: 1rem 1rem; 
 }
 
 .team {
@@ -106,5 +106,6 @@
 
     .teams-section {
         padding: 4em 2em;
+        margin-top: 3em;
     }
     }

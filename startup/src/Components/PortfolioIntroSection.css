@@ -6,8 +6,10 @@ top: -513px;
 
 .portfoliosection {
     width: 100%;
-    padding: 2em 1em;
-    }
+    padding: 2em 1em 1em 1em;
+    border-bottom: 1px solid #e0e0e0;
+}
+
 
 .works {
     font-family: "Work Sans", sans-serif;
@@ -56,10 +58,16 @@ top: -513px;
     }
     }
 
+    /* @media (max-width: 1440px) {
+    .portfoliophrase {
+        margin-left: 24%;
+    }
+} */
+
     @media (min-width: 1024px) {
     .portfoliosection {
-        padding: 4em 6em;
-        text-align: left;
+        text-align: center;
+        padding: 4em 6em 2em 6em;
     }
 
     .portfoliopage {
@@ -77,9 +85,30 @@ top: -513px;
         padding: 8px 0;
     }
 
-    .portfoliophrase {
+    /* .portfoliophrase {
         font-size: 18px;
         line-height: 1.8;
         max-width: 600px;
+        text-align: center;
+        margin-left: 12%;
+    } */
+    /* .portfoliophrase {
+        font-size: 1.5em;
+        line-height: 1.8em;
+        max-width: 600px;
+        text-align: center;
+        margin-left: 12em;
+    } */
+
+    .portfoliophrase {
+    font-size: 1.5em;
+    line-height: 1.8em;
+    max-width: 600px;
+    text-align: center;
+    margin: 0 auto;
     }
+
     }
+
+
+    

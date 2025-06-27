@@ -138,6 +138,23 @@ html, body {
     }
     } */
 
+    @media (max-width: 768px) {
+    .collabtn {
+        display: flex;
+        justify-content: center;
+        margin-top: 1.5em;
+        margin-left: 0; 
+    }
+
+    .learn-btn2b {
+        width: 140px;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+    }
+}
+
+
     @media (min-width: 1024px) {
     .intercollaboration {
     display: flex;
