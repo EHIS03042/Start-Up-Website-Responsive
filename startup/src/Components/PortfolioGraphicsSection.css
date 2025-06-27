@@ -1,0 +1,65 @@
+/* PortfolioGraphicsSection CSS Syntax */
+/* .portfoliographics {
+    width: 335px;
+    margin-left: 1.5em;
+}
+.landingpage, .webdesign, .rocketbusiness, .shopping, .geometricshapes, .trickortreat, .halloween, .virtualreality {
+    margin-top: 40px;
+}
+.learnmorebtn3 {
+    margin-top: 25px;
+} */
+
+.portfoliographics {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 100%;
+    padding: 2em 1em;
+    gap: 2em;
+    }
+
+    .portfoliographics img {
+    width: 100%;
+    height: auto;
+    max-width: 340px;
+    display: block;
+    }
+
+    .learnbtn3 {
+    display: block;
+    margin: 2em auto 0 auto;
+    }
+
+    @media (max-width: 768px) {
+    .portfoliographics {
+        flex-direction: column;
+        align-items: center;
+        padding: 2em 1em;
+        gap: 2em;
+    }
+
+    .portfoliographics img {
+        max-width: 90%;
+    }
+    }
+
+    @media (min-width: 1024px) {
+    .portfoliographics {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+        gap: 2em;
+        padding: 4em 6em;
+        justify-content: center;
+    }
+
+    .portfoliographics img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .learnbtn3 {
+        margin-top: 3em;
+    }
+    }

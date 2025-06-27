@@ -1,37 +1,150 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
 /* Welcome Section CSS Syntax */
+
 .intro-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     background-color: #74C69D;
-    width: 100%;
     color: white;
-    height: 562px;
-}  
+    padding: 2em 1em;
+    width: 100%;
+}
+
+/* .team3 {
+    width: 90%;
+    max-width: 400px;
+    height: auto;
+} */
+
+.textintro {
+    margin-top: 2em;
+    text-align: center;
+}
+
 .welcome {
-    text-align: left;
     font-family: "Work Sans", sans-serif;
     font-size: 16px;
     font-weight: 700;
-    margin-left: 5%;
     letter-spacing: 5px;
+    margin-left: 5%;
 }
-.lorembold{
-    text-align: left;
+
+.lorembold {
     font-family: "Crimson Text", serif;
     font-size: 28px;
     font-weight: 700;
+    margin-bottom: 1em;
     color: #FFFFFF;
-    margin-left: 5%;
 }
-.loremlight{
-    text-align: left;
+
+.loremlight {
     font-family: "Work Sans", sans-serif;
-    font-style: normal;
     font-size: 15px;
     font-weight: 400;
+    line-height: 1.6;
+    margin-bottom: 2em;
     color: #FFFFFF;
-    margin-left: 5%;
 }
+
 .explore-btn {
-    display: block;
-    margin-left: 5%;
-    margin-top: 8%;
+    width: 140px;
+    height: auto;
 }
+
+/* @media (min-width: 1024px) { */
+    /* .intro-section {
+    display: inline-block;
+    } */
+
+    /* .intro-section {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4em 6em;
+    height: auto;
+    } */
+
+    /* .textintro {
+    display: inline-block;
+    margin-left: -40em;
+    transform: translateY(-22em);
+} */
+
+    /* .textintro {
+    flex: 1;
+    text-align: left;
+    margin-right: 2em;
+} */
+/* .explore-btn {
+    transform: translateY(-26em);
+} */
+
+/* .explore-btn {
+    margin-top: 1.5em;
+    } */
+
+    @media (min-width: 1024px) {
+    .intro-section {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 4em 6em;
+    gap: 3em;
+    flex-wrap: nowrap;
+    }
+
+    .threeteam {
+    display: flex;
+    justify-content: center;
+    }
+    /* .team3 {
+    max-width: 500px;
+    height: auto;
+    margin-left: 2em;
+    } */
+
+    .team3 {
+    width: 100%;
+    height: auto;
+    max-width: 500px;
+    margin-right: 5%;
+    object-fit: contain;
+    margin-right: -20px;
+    }
+
+    .team3 {
+    margin-right: 20px;
+    margin-top: 30px;
+    }
+    .textintro, .threeteam {
+    flex: 1 1 50%;
+    min-width: 0;
+    /* margin-right: 2em; */
+    }
+
+    /* .textintro .welcome {
+    margin-left: 0;
+    } */
+
+    .textintro {
+    margin-left: -80px;
+    transform: translateY(-80px);
+    }
+    .explore-btn {
+        margin-top: 1.5em;
+        display: inline-block;
+    }
+    }
+

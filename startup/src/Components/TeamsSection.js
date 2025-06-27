@@ -9,14 +9,15 @@ import learnmorebtndark from '../images/learnmorebtndark.png'
 const TeamsSection = () => {
     return ( 
         <section className="teams-section">
-        <h2 className="team">TEAM</h2>
-        <h3 className="talent">Our Talents</h3>
-        <p className="ametnormal">
-            Lorem ipsum, dolor sit amet
-            <br/>consectetur
-            <br/>adipisicing elit.
-        </p>
-        
+            <div className='teamtext'>
+                <h2 className="team">TEAM</h2>
+                <h3 className="talent">Our Talents</h3>
+                <p className="ametnormal">
+                Lorem ipsum, dolor sit amet
+                <br/>consectetur
+                <br/>adipisicing elit.
+                </p>
+            </div>
         <ul className='designations'>
             <li className='card1'>
                 <img src={peglegge} className="peg" alt="Peg"/>

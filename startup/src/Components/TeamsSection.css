@@ -1,10 +1,18 @@
 /* TeamsSection CSS Syntax*/
-.teams-section {
+/* .teams-section {
     width: fixed;
     background-color: #FFFFFF;
-    margin-top: 40px;
+    margin-top: 22em;
     padding: 2rem,1rem;
+} */
+
+.teams-section {
+    width: 100%;
+    background-color: #FFFFFF;
+    margin-top: 4em; /* ✅ reduce from 22em */
+    padding: 2rem 1rem; /* ✅ fixed comma to space */
 }
+
 .team {
     text-align: center;
     font-family: "Work Sans", sans-serif;
@@ -28,6 +36,7 @@
 
 .designations {
     list-style: none;
+    flex-wrap: wrap;
 }
 .role1 {
     text-align: center;
@@ -45,3 +54,57 @@
     text-align: center;
     margin-left: -60px
 }
+
+
+/* @media (min-width: 1024px) {
+    .team3 {
+    margin-top: 6em;
+    margin-right: -20em;
+    width: 32em;
+    height: 20em;
+    }
+    }
+    .teamtext {
+        margin-top: -22em;
+    }
+.designations {
+    display: flex;
+    flex-wrap: wrap;
+} */
+
+@media (min-width: 1024px) {
+    .designations {
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        gap: 2em;
+        padding: 0;
+        margin: 3em auto;
+        list-style: none;
+    }
+
+    .designations li {
+        flex: 0 1 200px;
+        text-align: center;
+    }
+
+    .designations img {
+        width: 100%;
+        max-width: 180px;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .role1,
+    .role2,
+    .role3,
+    .role4 {
+        margin-left: 0 !important;
+    }
+
+    .teams-section {
+        padding: 4em 2em;
+    }
+    }

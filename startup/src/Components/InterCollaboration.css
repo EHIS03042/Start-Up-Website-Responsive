@@ -1,5 +1,18 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
 /* InterCollaboration CSS Syntax */
-.intercollaboration {
+/* .intercollaboration {
     display: block;
     align-items: center;
     padding: 10px 5px;
@@ -8,24 +21,160 @@
     position: relative;
     margin-top: 40px;
     margin-left: 2em;
-} 
-.inter3 {
-    width: auto;
+}  */
+
+.intercollaboration {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #FFFFFF;
+    width: 100%;
+    padding: 2em 1em;
+    gap: 1.5em;
 }
-.dolorbold {
+
+/* .inter3 {
+    width: auto;
+} */
+    .inter3 {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+}
+
+.textinter {
     text-align: left;
+    max-width: 500px;
+}
+
+.dolorbold {
     font-family: "Crimson Text", serif;
     font-size: 24px;
     font-weight: 700;
+    margin-bottom: 0.5em;
 }
-.dolorlight {
+/* .dolorlight {
     text-align: left;
     font-family: "Work Sans", serif;
     font-size: 15px;
     font-weight: 400;
     font-style: normal;
     color: gray;
+} */
+
+.dolorlight {
+    font-family: "Work Sans", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: gray;
+    line-height: 1.6;
+    font-style: normal;
 }
-.learn-btn2 {
+.collabtn{
+    margin-top: 1em;
+}
+/* .learn-btn2b {
+    margin-left: -13.2em;
+} */
+
+.learn-btn2b {
+    width: 140px;
+    height: auto;
+    margin-bottom: 5em;
+    margin-top: -2.5em;
+    margin-left: -13.5em;
+}
+
+@media (max-width: 768px) {
+.dolorlight {
+    text-align: left;
+}
+}
+    
+
+/* Desktop Media Query */
+    /* @media (min-width: 1024px) {
+    .inter3 {
+    margin-left: -35em;
+    }
+    }
+    .textinter {
+    display: inline-block;
+    margin-right: -25em;
+    transform: translateY(-12em);
+    }
+    .colla3 {
+    margin-left: 5em;
+    }
+    .collabtn {
+    transform: translateY(-12em);
+    margin-left: 22.5em;
+    } */
+
+    /* @media (min-width: 1024px) {
+    .intercollaboration {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 4em 6em;
+        gap: 2em;
+    }
+
+    .colla3,
+    .textinter,
+    .collabtn {
+        flex: 1;
+    }
+
+    .textinter {
+        text-align: left;
+    }
+
+    .collabtn {
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        margin-top: 0;
+    }
+    } */
+
+    @media (min-width: 1024px) {
+    .intercollaboration {
     display: flex;
-}
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4em 6em;
+    gap: 3em;
+    }
+
+    .colla3, .textinter {
+        flex: 1;
+    }
+
+    .colla3 {
+        display: flex;
+        justify-content: center;
+    }
+
+    .inter3 {
+        max-width: 500px;
+        width: 100%;
+        height: auto;
+        object-fit: contain;
+    }
+
+    .textinter {
+        text-align: left;
+    }
+
+    .collabtn {
+        margin-top: 1.5em;
+    }
+
+    .learn-btn2b {
+        width: 140px;
+        height: auto;
+        margin: 0;
+    }
+    }
