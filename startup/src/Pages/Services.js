@@ -1,9 +1,11 @@
 import './Services.css'
-
+import PaymentPlanSection from '../Components/PaymentPlanSection';
 
 const Services = () => {
     return ( 
-        <div></div>
+        <div>
+        <PaymentPlanSection />  
+        </div>
     );
 }
 
