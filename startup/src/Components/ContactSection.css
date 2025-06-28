@@ -7,9 +7,6 @@
     padding: 24px;
     }
 
-    /* Media query for Mobile View */
-
-
     /* Media Query for Laptop/Desktop View */
     @media (min-width: 1024px) {
     .mapformwrapper {
