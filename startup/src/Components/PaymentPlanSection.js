@@ -16,18 +16,26 @@ const PaymentPlanSection = () => {
                 <br />adipisicing elit.
                 </p>
             </div>
-            <div className="basiccard">
-                <img src={basicplancard} className="basicplan" alt="BasicPlan"/>
-                <img src={learnmorebtndark} className="btndark" alt="BtnDark"/>
-            </div>
-            <div className="pluscard">
-                <img src={plusplancard} className="basicplan" alt="BasicPlan"/>
-                <img src={learnmorebtndark} className="btndark" alt="BtnDark"/>
-            </div>
-            <div className="procard">
-                <img src={proplancard} className="basicplan" alt="BasicPlan"/>
-                <img src={learnmorebtndark} className="btndark" alt="BtnDark"/>
-            </div>
+            <ul className='payplanlist'>
+                <li>
+                    <div className="basiccard">
+                    <img src={basicplancard} className="basicplan" alt="BasicPlan"/>
+                    <img src={learnmorebtndark} className="btndark" alt="BtnDark"/>
+                    </div>
+                </li>
+                <li>
+                    <div className="pluscard">
+                    <img src={plusplancard} className="basicplan" alt="BasicPlan"/>
+                    <img src={learnmorebtndark} className="btndark" alt="BtnDark"/>
+                    </div>
+                </li>
+                <li>
+                    <div className="procard">
+                    <img src={proplancard} className="basicplan" alt="BasicPlan"/>
+                    <img src={learnmorebtndark} className="btndark" alt="BtnDark"/>
+                    </div>
+                </li>
+            </ul>
         </section>
     );
 }
