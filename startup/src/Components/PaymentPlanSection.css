@@ -7,11 +7,9 @@
     align-items: center;
     gap: 3rem;
     }
-
     .servicecharge {
     text-align: center;
     }
-
     .servicecharge h1 {
     color: #38b000;
     font-family: "Work Sans", sans-serif;
@@ -20,7 +18,6 @@
     letter-spacing: 0.1em;
     margin-bottom: 0.5rem;
     }
-
     .servicecharge h2 {
     font-family: "Crimson Text", serif;
     font-size: 1.4rem;
@@ -28,7 +25,6 @@
     margin-bottom: 1rem;
     color: #000000;
     }
-
     .servicecharge p {
     font-family: "Work Sans", sans-serif;
     font-size: 1rem;
@@ -38,7 +34,6 @@
     margin: 0 auto;
     max-width: 300px;
     }
-
     .payplanlist{
     list-style: none;
     display: flex;
@@ -49,7 +44,6 @@
     margin: 0 auto;
     width: 100%;
     max-width: 1200px;
-
     }
     .payplanlist li{
     list-style: none;
@@ -57,8 +51,6 @@
     max-width: 300px;
     margin: 0;
     }
-
-
     .basiccard,
     .pluscard,
     .procard {
@@ -74,7 +66,6 @@
     padding: 2rem;
     margin: 0 auto;
     }
-
     .btndark {
     background: #212529;
     color: #fff;
@@ -96,62 +87,32 @@
     }
 
     /* Mobile View Media Queries */
-
     /* Tablet & Below (≤768px): Vertical Layout */
     @media screen and (max-width: 768px) {
     .paymentplan {
         padding: 2rem 1rem;
     }
-
     .payplanlist {
         flex-direction: column;
         align-items: center;
     }
-
     .payplanlist li{
         width: 100%;
         max-width: 100%;
     }
-
     .basiccard,
     .pluscard,
     .procard {
         max-width: 100%;
         padding: 1.5rem;
     }
-
     .btndark {
         width: 100%;
         max-width: 180px;
     }
 
-    /* .servicecharge h1 {
-        font-size: 0.85rem;
-    }
-
-    .servicecharge h2 {
-        font-size: 1.2rem;
-    }
-
-    .servicecharge p {
-        font-size: 0.95rem;
-    }
-
-    .basiccard,
-    .pluscard,
-    .procard {
-        width: 100%;
-        margin-bottom: 2rem;
-    }
-
-    .btndark {
-        width: 100%;
-        max-width: 280px;
-    }
-    }
-
     /* Desktop Media Queries */
-    /*  Desktop (≥1024px): Horizontal Cards */
+    /*  Desktop (≥1024px): Horizontal Layout */
     @media screen and (min-width: 1024px) {
     .paymentplan {
         padding: 4rem 2rem;
@@ -163,19 +124,11 @@
     gap: 1.5rem;
     flex-wrap: nowrap;
     }
-    
-    /* .payplanlist li {
-    list-style: none;
-    flex: 1 1 30%;
-    max-width: 320px;
-    } */
-
     .payplanlist li {
         flex: 1 1 30% ;
         max-width: 100%;
         margin: 0;
     }
-
     .basiccard,
     .pluscard,
     .procard {
@@ -188,24 +141,4 @@
     margin: 0 auto;
     }
 }
-
-    /* Mobile View Override */
-    /* @media screen and (max-width: 768px) {
-    .payplanlist {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 2rem;
-        padding: 0;
-    }
-
-    .payplanlist li {
-        width: 100%;
-    }
-
-    .btndark {
-        margin: 0 auto;
-    }
-} */
-
     }

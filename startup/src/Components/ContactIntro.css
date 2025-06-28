@@ -1,0 +1,18 @@
+    /* CSS Rules for ContactIntro Section */
+.contactintro {
+    text-align: center;
+    justify-content: center;
+}
+
+.contactintro h1 {
+    font-family: "Crimson Text", serif;
+    font-size: 24px;
+    font-weight: 700;
+    font-style: bold;
+}
+.contactintro p {
+    font-family: "Work Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    font-style: normal;
+}
