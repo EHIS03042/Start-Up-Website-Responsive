@@ -1,2 +1,71 @@
     /* CSS Rules for Form4Details Section */
-    
+    .contactform {
+    flex-direction: column;
+    gap: 16px;
+    width: 100%;
+    padding: 24px;
+    box-sizing: border-box;
+    text-align: left;
+    }
+
+    .contactform label {
+    font-family:"Work Sans", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: left;
+    }
+
+    .contactform input,
+    .contactform textarea {
+    padding: 10px;
+    border: 1px solid #333;
+    border-radius: 4px;
+    background-color: #eee;
+    font-family: "Work Sans", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: left;
+    width: 100%;
+    box-sizing: border-box;
+    }
+
+    .contactform button {
+    padding: 12px;
+    background-color: #1f2328;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    width: 100%;
+    }
+
+    /* Media Query for Mobile View */
+    @media (max-width: 768px) {
+    .contactform {
+        padding: 16px;
+        font-size: 0.95rem;
+    }
+
+    .contactform button {
+        font-size: 1rem;
+        padding: 10px;
+    }
+    }
+
+    /* Media Query for Laptop/Desktop View */
+    @media (min-width: 1024px) {
+    .contactform {
+        gap: 20px;
+        padding: 32px;
+        margin-top: 45px;
+    }
+    .contactform input,
+    .contactform textarea {
+        font-size: 1.05rem;
+    }
+    .contactform button {
+        padding: 14px;
+        font-size: 1.1rem;
+    }
+}

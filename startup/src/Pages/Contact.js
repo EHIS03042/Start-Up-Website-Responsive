@@ -1,7 +1,7 @@
 import './Contact.css'
 import ContactIntro from '../Components/ContactIntro';
-import GoogleMap from '../Components/GoogleMap';
-import Form4Details from '../Components/Form4Details';
+
+import ContactSection from '../Components/ContactSection';
 
 
 
@@ -9,8 +9,9 @@ const Contact = () => {
     return ( 
         <div>
             <ContactIntro/>
-            <GoogleMap/>
-            <Form4Details/>
+            {/* <GoogleMap/>
+            <Form4Details/> */}
+            <ContactSection/>
         </div>
     );
 }

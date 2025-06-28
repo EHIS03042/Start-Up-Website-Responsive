@@ -10,6 +10,8 @@
 @media (max-width: 768px) {
     .google-map-iframe {
         height: 200px; /* shorter height on smaller screens */
+        width: 100%;
+        display: inline-flex;
     }
 }
 
@@ -18,7 +20,7 @@
     .google-map-iframe {
         height: 400px; /* higher height for larger screens */
         width: 400px;
-        margin-top: 30px;
+        margin-top: 70px;
     }
     .map-container {
         margin-top: -3.2em;
