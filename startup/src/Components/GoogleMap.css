@@ -1,0 +1,28 @@
+    /* CSS Rules for GoogleMap_iframe */
+
+.google-map-iframe {
+    width: 100%;
+    height: 300px; /* height for mobile first view */
+    border-radius: 8px;
+}
+
+    /* Media Query for Mobile View */
+@media (max-width: 768px) {
+    .google-map-iframe {
+        height: 200px; /* shorter height on smaller screens */
+        width: 100%;
+        display: inline-flex;
+    }
+}
+
+/* Media Query for Laptop/Desktop View  */
+@media (min-width: 1024px) {
+    .google-map-iframe {
+        height: 400px; /* higher height for larger screens */
+        width: 400px;
+        margin-top: 70px;
+    }
+    .map-container {
+        margin-top: -3.2em;
+    }
+}

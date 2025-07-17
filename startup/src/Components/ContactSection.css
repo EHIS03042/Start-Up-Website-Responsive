@@ -1,0 +1,43 @@
+    /* CSS Rules for ContactSection[GoogleMap+Form4Details] */
+    .mapformwrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    align-items: center;
+    padding: 24px;
+    }
+
+    /* Media Query for Laptop/Desktop View */
+    @media (min-width: 1024px) {
+    .mapformwrapper {
+        flex-direction: row-reverse;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 48px;
+    }
+
+    .mapformwrapper > * {
+        flex: 1;
+        max-width: 500px;
+    }
+}
+
+    /* Mobile Override */
+    @media (max-width: 768px) {
+    .form-map-wrapper {
+        flex-direction: column;
+        padding: 0 16px;
+        align-items: stretch;
+    }
+
+    .contactform {
+        width: 100% !important;
+        max-width: 100% !important;
+        padding: 16px !important;
+    }
+
+    .contactform input,
+    .contactform textarea {
+        width: 100% !important;
+    }
+}

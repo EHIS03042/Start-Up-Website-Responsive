@@ -1,0 +1,144 @@
+    /* PaymentPlanSection CSS Rules */
+    .paymentplan {
+    padding: 4rem 1.5rem;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+    }
+    .servicecharge {
+    text-align: center;
+    }
+    .servicecharge h1 {
+    color: #38b000;
+    font-family: "Work Sans", sans-serif;
+    font-size: 0.9rem;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    margin-bottom: 0.5rem;
+    }
+    .servicecharge h2 {
+    font-family: "Crimson Text", serif;
+    font-size: 1.4rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    color: #000000;
+    }
+    .servicecharge p {
+    font-family: "Work Sans", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #333333;
+    line-height: 1.6;
+    margin: 0 auto;
+    max-width: 300px;
+    }
+    .payplanlist{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    padding: 0;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1200px;
+    }
+    .payplanlist li{
+    list-style: none;
+    width: 90%;
+    max-width: 300px;
+    margin: 0;
+    }
+    .basiccard,
+    .pluscard,
+    .procard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.2rem;
+    width: 100%;
+    max-width: 360px;
+    background-color: #fff;
+    border-radius: 16px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+    padding: 2rem;
+    margin: 0 auto;
+    }
+    .btndark {
+    background: #212529;
+    color: #fff;
+    padding: 0.5rem 0.5rem;
+    border-radius: 6px;
+    font-size: 2.5rem;
+    font-weight: 500;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    display: block;
+    margin: 1rem auto 0 auto;
+    width: 200px;
+    height: 60px;
+    transition: 0.3s;
+    }
+    .btndark:hover{
+    background: #0d1117;
+    }
+
+    /* Mobile View Media Queries */
+    /* Tablet & Below (≤768px): Vertical Layout */
+    @media screen and (max-width: 768px) {
+    .paymentplan {
+        padding: 2rem 1rem;
+    }
+    .payplanlist {
+        flex-direction: column;
+        align-items: center;
+    }
+    .payplanlist li{
+        width: 100%;
+        max-width: 100%;
+    }
+    .basiccard,
+    .pluscard,
+    .procard {
+        max-width: 100%;
+        padding: 1.5rem;
+    }
+    .btndark {
+        width: 100%;
+        max-width: 180px;
+    }
+
+    /* Desktop Media Queries */
+    /*  Desktop (≥1024px): Horizontal Layout */
+    @media screen and (min-width: 1024px) {
+    .paymentplan {
+        padding: 4rem 2rem;
+    }
+    .payplanlist {
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 1.5rem;
+    flex-wrap: nowrap;
+    }
+    .payplanlist li {
+        flex: 1 1 30% ;
+        max-width: 100%;
+        margin: 0;
+    }
+    .basiccard,
+    .pluscard,
+    .procard {
+        width: 100%;
+        max-width: 100%;
+        margin: 0 ;
+    }
+    .btndark {
+    width: 160px;
+    margin: 0 auto;
+    }
+}
+    }

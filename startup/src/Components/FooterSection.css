@@ -1,0 +1,75 @@
+/* FooterSection CSS Syntax */
+.footersection {
+    margin-top: 40px;
+    width: 375px;
+    height: 125px;
+    background-color: #74C69D;
+    top: 4270px;
+}
+.socialmediaicons {
+    display: flex;
+    margin-left: 60px;
+    gap: 20px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    padding-top: 20px;
+}
+.copyright {
+    color: #FFFFFF;
+    font-family: "Work Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+    /* Mobile View Media Query */
+@media (min-width: 768px) {
+    .footersection {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #74C69D;
+        padding: 20px 40px;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .socialmediaicons {
+        display: flex;
+        gap: 16px;
+        flex-wrap: wrap;
+    }
+    .copyright {
+        font-size: 14px;
+        color: white;
+        margin-top: 10px;
+    }
+    }
+
+    /* Desktop Media Query */
+@media (min-width: 1024px) {
+    .footersection {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #74C69D;
+        padding: 20px 80px;
+        width: 100%;
+        height: auto;
+        gap: 2em;
+    }
+    .socialmediaicons {
+        display: flex;
+        gap: 20px;
+        margin: 0;
+    }
+    .socialmediaicons img {
+        width: 24px;
+        height: 24px;
+        object-fit: contain;
+        display: block;
+    }
+    .copyright {
+        font-size: 16px;
+        color: white;
+        margin: 0;
+    }
+    }
